@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin-bottom: 0px;
+}
+.navbarst img{
+    width: 200px;
+}
+.orn-bg{
+    background-color: #fceae8;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+.carousel-item{
+    padding: 2% 4% ;
+}
+.item-hed{
+    font-size: 40px;
+    color: rgba(32, 14, 104, 0.904);
+}
+.price{
+   color:  #ff136f;
+}
+.buy-btn{
+    background-image: linear-gradient(45deg, rgb(255, 165, 0), tomato);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 9px 25px;
+}
+
+.categorys{
+    margin-top: 5%;
+}
+.categorys h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.categorys img{
+    width: 100px;
+    border-radius: 40px;
+    height: 80px;
+    transition: all .4s linear;
+}
+.categorys img:hover{
+    transform: scale(1.1);
+}
+.cat1, .cat2, .cat3, .cat4{
+    padding: 10px 15px 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+   
+}
+.cat1{
+    /* background-color: #ff136f; */
+    background-image: linear-gradient(45deg, rgb(255, 165, 0), tomato);
+}
+.cat2{
+    /* background-color: aqua; */
+    background-image: linear-gradient(45deg, rgb(34, 23, 141), rgb(71, 135, 255));
+}
+.cat3{
+    /* background-color: rgb(255, 165, 0); */
+    background-image: linear-gradient(45deg, rgb(255, 0, 21), rgb(8, 8, 8));
+}
+.cat4{
+    /* background-color: royalblue; */
+    background-image: linear-gradient(45deg, rgb(20, 211, 131), rgb(71, 243, 255));
+}
+
+.discount-sec{
+    margin-top: 5%;
+}
+.discount-sec h1{
+    color: rgb(211, 57, 57);
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+}
+.discount-sec h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 10%;
+}
+.dis{
+    background-color: #99cfbb;
+    border-radius: 4%;
+    padding: 20px 15px 10px 20px;
+    
+} 
+.dis-btn{
+    background-image: linear-gradient(45deg, rgb(28, 139, 65), rgb(71, 255, 141));
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.latest-sec{
+    margin-top: 5%;
+}
+.latest-sec img{
+    margin-top: 5%;
+    width: 70%;
+    height: 150px;
+    transition: all .4s linear;
+}
+.latest-sec img:hover{
+    transform: scale(1.1);
+}
+.card-title, .card-text{
+    text-align: center;
+}
+.latest-btn{
+    background-image: linear-gradient(45deg, rgb(233, 62, 19), rgb(11, 7, 54));
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.latest-hed{
+    text-align: center; 
+    background-image: linear-gradient(45deg,rgb(233, 62, 19), rgb(11, 7, 54));
+    color: white;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+.mostSell-sec{
+    margin-top: 5%;
+}
+.mostSell-hed{
+    text-align: center; 
+    background-image: linear-gradient(45deg,rgb(11, 5, 34), rgb(21, 205, 214));
+    color: white;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.mostSell-btn{
+    background-image: linear-gradient(45deg, rgb(11, 5, 34), rgb(21, 205, 214));
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.mostSell-sec img{
+    margin-top: 5%;
+    width: 70%;
+    height: 150px;
+    transition: all .4s linear;
+}
+.mostSell-sec img:hover{
+    transform: scale(1.1);
+}
+
+.banner-sec{
+    margin-top: 5%;
+}
+.banner-sec img{
+    width: 100%;
+}
+.banner-sec h1{
+    position: relative;
+    top: -250px;
+    left: 100px;
+    color: lightseagreen;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: #918b8b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+footer p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.socialLink{
+    display: flex;
+}
+.socialLink a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.socialLink a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: #fafafa;
+    bottom: 2%;
+    font-size: 14px;
+}
